@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Imports */
+/* bring in normalize.css styles */
+@import-normalize;
+/* brings in Playful Display font with 700 weight*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    font-size: 16px;
+    /* Font colors for headings */
+    --clr-black: #16224A;
+    --clr-blue: #047AF5;
+    /* Color for paragraphs */
+    --clr-main-black: #4F4F4F;
+    --clr-sec-black: #16224A;
+    /* Colors for buttons */
+    --clr-turquoise: #19E0DA;
+    --clr-gray: rgba(155, 155, 155, 0.67);
+    --clr-white: #FFFFFF;
+    
+    /* Fonts */
+    --font-section-main-headings: normal 700 5.625rem/5.625rem 'Playfair Display', serif;
+    --font-section-slide-headings: normal 700 5rem/4.375rem 'Playfair Display', serif;
+
+    /* General Variables */
+    --spacing: -.02em;
+    --spacing-sec-para: .2em;
+    --radius: 3.125rem;
+    --max-width: 1440px;
 }
+
+body{
+  margin: 0;
+}
+
+/* Partial Border - Landing Page & Slide-3 What we offer */
+/* https://stackoverflow.com/questions/8835142/any-way-to-declare-a-size-partial-border-to-a-box (second answer) */
