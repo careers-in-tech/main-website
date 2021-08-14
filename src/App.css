@@ -12,6 +12,25 @@
   justify-content: center;
 }
 
+.hero {
+  position: relative;
+  background-color: rgba(236, 240, 241, 0.85);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("./assets/images/header.png");
+  background-size: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(236, 240, 241, 0.85);
+}
+
 hr {
   position: relative;
   border-color: var(--clr-blue);
