@@ -2,38 +2,40 @@
 /* bring in normalize.css styles */
 @import-normalize;
 /* brings in Playful Display font with 700 weight*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    /* Font colors for headings */
-    --clr-black: #16224A;
-    --clr-blue: #047AF5;
-    /* Color for paragraphs */
-    --clr-main-black: #4F4F4F;
-    --clr-sec-black: #16224A;
-    /* Colors for buttons */
-    --clr-turquoise: #19E0DA;
-    --clr-gray: rgba(155, 155, 155, 0.67);
-    --clr-white: #FFFFFF;
-    
-    /* Fonts */
-    --font-section-main-headings: normal 700 5.625rem/5.625rem 'Playfair Display', serif;
-    --font-section-slide-headings: normal 700 5rem/4.375rem 'Playfair Display', serif;
+  font-size: 16px;
+  /* Font colors for headings */
+  --clr-black: #16224a;
+  --clr-blue: #047af5;
+  /* Color for paragraphs */
+  --clr-main-black: #4f4f4f;
+  --clr-sec-black: #16224a;
+  /* Colors for buttons */
+  --clr-turquoise: #19e0da;
+  --clr-gray: rgba(155, 155, 155, 0.67);
+  --clr-white: #ffffff;
 
-    /* General Variables */
-    --spacing: -.02em;
-    --spacing-sec-para: .2em;
-    --radius: 3.125rem;
-    --max-width: 1440px;
+  /* Fonts */
+  --font-section-main-headings: bold 700 5.625rem/5.625rem "Playfair Display",
+    serif;
+  --font-section-slide-headings: normal 700 5rem/4.375rem "Playfair Display",
+    serif;
+
+  /* General Variables */
+  --spacing: -0.02em;
+  --spacing-sec-para: 0.2em;
+  --radius: 3.125rem;
+  --max-width: 1440px;
 }
 
-body{
+body {
   margin: 0;
 }
 
