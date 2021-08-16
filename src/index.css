@@ -23,7 +23,7 @@ html {
   --clr-white: #ffffff;
 
   /* Fonts */
-  --font-section-main-headings: bold 700 5.625rem/5.625rem "Playfair Display",
+  --font-section-main-headings: normal 700 5.625rem/5.625rem "Playfair Display",
     serif;
   --font-section-slide-headings: normal 700 5rem/4.375rem "Playfair Display",
     serif;

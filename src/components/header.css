@@ -1,0 +1,79 @@
+/* Header(Slide 1) Styles */
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  position: relative;
+  background-color: rgba(236, 240, 241, 0.85);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/header.png");
+  background-size: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(236, 240, 241, 0.85);
+}
+
+hr {
+  position: relative;
+  border-color: var(--clr-blue);
+  width: 5%;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+h1.headerTitle {
+  position: relative;
+  font-family: var(--font-section-main-headings);
+  color: var(--clr-black);
+  font-size: 90px;
+
+  line-height: 95%;
+  text-align: center;
+  letter-spacing: -2%;
+  padding-top: 5%;
+  margin-bottom: 0;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.headerText {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  color: var(--clr-blue);
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+button {
+  position: relative;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  margin: 5px;
+}
+
+.member {
+  background-color: var(--clr-turquoise);
+}
+
+.advisor {
+  background-color: var(--clr-gray);
+}
