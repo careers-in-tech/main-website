@@ -1,4 +1,5 @@
 import "./header.css";
+import Button from "./Button";
 
 const Header = () => {
   return (
@@ -6,9 +7,17 @@ const Header = () => {
       <hr />
       <h1 className="headerTitle">Careers in Tech and Innovation</h1>
       <p className="headerText">Helping you find your future in tech</p>
-      <div>
-        <button className="member">Button Component</button>
-        <button className="advisor">Button Component</button>
+      <div className="buttonGroup">
+        <Button
+          text="Become a Member"
+          link="https://docs.google.com/forms/d/18mJXKqK5TPIoRmFZhop529CF8f865N_o3c2Bsw2TsTA"
+          color="turquoise"
+        />
+        <Button
+          text="Become an Advisor"
+          link="https://docs.google.com/forms/d/1Tqj4OvfrIGQDQYOT4bv5lShbldFWM8TAyMc-MuNdPUQ"
+          color="gray"
+        />
       </div>
     </header>
   );
