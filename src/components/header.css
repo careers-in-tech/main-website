@@ -31,22 +31,20 @@ hr {
   position: relative;
   border-color: var(--clr-blue);
   width: 5%;
-  box-shadow: rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 h1.headerTitle {
   position: relative;
-  font-family: var(--font-section-main-headings);
+  font: var(--font-section-main-headings);
   color: var(--clr-black);
-  font-size: 90px;
-
   line-height: 95%;
   text-align: center;
   letter-spacing: -2%;
   padding-top: 5%;
   margin-bottom: 0;
   margin-top: 5px;
-  box-shadow: rgba(0, 0, 0, 0.25);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .headerText {
@@ -56,5 +54,4 @@ h1.headerTitle {
   font-size: 30px;
   line-height: 60px;
   letter-spacing: -2%;
-  box-shadow: rgba(0, 0, 0, 0.25);
 }
