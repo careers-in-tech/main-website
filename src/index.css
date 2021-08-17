@@ -2,7 +2,9 @@
 /* bring in normalize.css styles */
 @import-normalize;
 /* brings in Playful Display font with 700 weight*/
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+/* brings in Lato font with 400 weight */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 /* Box Model Hack */
 * {
@@ -23,9 +25,9 @@ html {
   --clr-white: #ffffff;
 
   /* Fonts */
-  --font-section-main-headings: normal 700 5.625rem/5.625rem "Playfair Display",
+  --font-section-main-headings: normal 700 5.625rem/5.625rem 'Playfair Display',
     serif;
-  --font-section-slide-headings: normal 700 5rem/4.375rem "Playfair Display",
+  --font-section-slide-headings: normal 700 5rem/4.375rem 'Playfair Display',
     serif;
 
   /* General Variables */
@@ -36,6 +38,7 @@ html {
 }
 
 body {
+  height: 100%;
   margin: 0;
 }
 
