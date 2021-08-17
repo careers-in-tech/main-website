@@ -1,5 +1,5 @@
 import './slide2.css'
-import image from '../assets/images/UsGroup.png'
+import image from '../assets/images/us_group.png'
 
 const Slide2 = () => {
   return (
