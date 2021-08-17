@@ -1,19 +1,19 @@
 import './slide2.css'
-import image from '../Assets/images/UsGroup.png'
+import image from '../assets/images/UsGroup.png'
 
 const Slide2 = () => {
   return (
     <section className="slide2">
-      <div className="slide2_container">
+      <div className="slide2__container">
         <img
           src={image}
           alt="cartoon depiction of group collaborating on a project"
-          className="slide2_container_image"
+          className="slide2__container__image"
         />
 
-        <div className="slide2_container_text">
-          <h2 className="slide2_container_text_h2">Who we are</h2>
-          <p className="slide2_container_text_p">
+        <div className="slide2__container__text">
+          <h2 className="slide2__container__text__h2">Who we are</h2>
+          <p className="slide2__container__text__p">
             We're a welcoming community for professionals looking to transition
             their skills into new and innovative careers in tech.
           </p>
