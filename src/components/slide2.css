@@ -1,27 +1,25 @@
-@import url('../index.css');
-
-.slide2_container {
+.slide2__container {
   max-width: var(--max-width);
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
 }
 
-.slide2_container_image {
+.slide2__container__image {
   margin: 76px 0 94.7px 0;
 }
 
-.slide2_container_text {
+.slide2__container__text {
   max-width: 458px;
 }
 
-.slide2_container_text_h2 {
+.slide2__container__text__h2 {
   font: var(--font-section-slide-headings);
   color: var(--clr-black);
   margin: 269px 0 40px 0;
 }
 
-.slide2_container_text_p {
+.slide2__container__text__p {
   color: var(--clr-main-black);
   font: normal 400 1.875rem/2.8125rem Lato;
   margin: 0;
