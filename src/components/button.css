@@ -1,0 +1,24 @@
+.buttonGroup {
+  display: flex;
+}
+
+.button {
+  position: relative;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+  padding: 15px 20px;
+  font: normal 700 1.255rem/3.75rem Lato;
+  color: var(--clr-white);
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.turquoise {
+  background-color: var(--clr-turquoise);
+}
+
+.gray {
+  background-color: var(--clr-gray);
+}
