@@ -1,0 +1,26 @@
+.slide2__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slide2__container__image {
+  margin: 76px 0 94.7px 0;
+}
+
+.slide2__container__text {
+  max-width: 458px;
+}
+
+.slide2__container__text__h2 {
+  font: var(--font-section-slide-headings);
+  color: var(--clr-black);
+  margin: 269px 0 40px 0;
+}
+
+.slide2__container__text__p {
+  color: var(--clr-main-black);
+  font: normal 400 1.875rem/2.8125rem Lato;
+  margin: 0;
+}
