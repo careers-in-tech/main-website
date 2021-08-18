@@ -1,0 +1,16 @@
+.slide4 {
+  display: flex;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.slide4__container__text {
+  padding: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
