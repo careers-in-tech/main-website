@@ -8,9 +8,32 @@
 }
 
 .slide4__container__text {
-  padding: 1.5rem;
+  padding: 5rem;
+  margin-top: 5rem;
 }
 
-img {
+img.slide__container__image {
   width: 100%;
+}
+
+.slide4__container__text__h2 {
+  font: var(--font-section-slide-headings);
+  color: var(--clr-black);
+  margin-bottom: 10px;
+}
+
+.slide4__container__text__p {
+  color: var(--clr-main-black);
+  font: normal 400 1.875rem/2.8125rem Lato;
+}
+
+span.strongColored {
+  font-weight: 900;
+  font-style: italic;
+  color: var(--clr-turquoise);
+}
+
+span.emphasized {
+  font-weight: 300;
+  font-style: italic;
 }
