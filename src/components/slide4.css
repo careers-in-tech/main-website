@@ -15,13 +15,13 @@
 
 .slide4__container__text {
   padding: 6rem 1rem 1rem 3rem;
-  margin: 6rem 0rem 0rem 5rem;
+  margin: 6rem 0 0 5rem;
 }
 
 img.slide__container__image {
   max-width: 50%;
   position: absolute;
-  right: 0%;
+  right: 0;
 }
 
 .slide4__container__text__h2 {
