@@ -4,7 +4,7 @@
 /* brings in Playful Display font with 700 weight*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 /* brings in Lato font with 400 weight */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
 /* Box Model Hack */
 * {
