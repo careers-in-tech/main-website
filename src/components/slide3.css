@@ -36,7 +36,7 @@
   width: 270px;
 }
 
-.slide3__container__offerings__orient__h3 {
+.slide3__container__offerings__h3 {
   text-transform: uppercase;
   font: normal 900 1.25rem/1.875rem Lato;
   color: var(--clr-sec-black);
@@ -44,7 +44,7 @@
   letter-spacing: 0.2em;
 }
 
-.slide3__container__offerings__orient__p {
+.slide3__container__offerings__p {
   font: normal 300 1.25rem/1.875rem Lato;
   color: var(--clr-sec-black);
   letter-spacing: -0.02em;

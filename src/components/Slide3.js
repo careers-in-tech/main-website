@@ -14,36 +14,34 @@ const Slide3 = () => {
           pivot into fulfilling careers in the growing tech sector.
         </p>
         <div className="slide3__container__offerings">
-          <div className="slide3__container__offerings__orient slide3__container__offerings-size">
+          <div className="slide3__container__offerings-size">
             <img src={bulb} alt="Light Bulb" />
-            <h3 className="slide3__container__offerings__orient__h3">
+            <h3 className="slide3__container__offerings__h3">
               orient yourself
             </h3>
-            <p className="slide3__container__offerings__orient__p">
+            <p className="slide3__container__offerings__p">
               Not sure where to start? Don’t worry, we’ve been there. Learn
               about the tech scene and start looking intp where you can find
               your niche.
             </p>
           </div>
           <div className="slide3__container__offerings__line"></div>
-          <div className="slide3__container__offerings__people slide3__container__offerings-size">
+          <div className="slide3__container__offerings-size">
             <img src={people} alt="people icon" />
-            <h3 className="slide3__container__offerings__orient__h3">
+            <h3 className="slide3__container__offerings__h3">
               find your people
             </h3>
-            <p className="slide3__container__offerings__orient__p">
+            <p className="slide3__container__offerings__p">
               We all came for the tech scene, but we all stay because of the
               supportive community who made this possible. Learn from experts
               through weekly webinars and online coffee ‘dates’.
             </p>
           </div>
           <div className="slide3__container__offerings__line"></div>
-          <div className="slide3__container__offerings__pace slide3__container__offerings-size">
+          <div className="slide3__container__offerings-size">
             <img src={watch} alt="watch face" />
-            <h3 className="slide3__container__offerings__orient__h3">
-              at your pace
-            </h3>
-            <p className="slide3__container__offerings__orient__p">
+            <h3 className="slide3__container__offerings__h3">at your pace</h3>
+            <p className="slide3__container__offerings__p">
               Access all resources that work best for you. From weekly zoom
               calls to a dedicated Slack group join us when it works best for
               you.
