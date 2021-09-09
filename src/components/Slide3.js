@@ -21,7 +21,7 @@ const Slide3 = () => {
             </h3>
             <p className="slide3__container__offerings__p">
               Not sure where to start? Don’t worry, we’ve been there. Learn
-              about the tech scene and start looking intp where you can find
+              about the tech scene and start looking into where you can find
               your niche.
             </p>
           </div>
