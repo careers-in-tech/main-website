@@ -46,3 +46,33 @@ span.emphasized {
   font-weight: 300;
   font-style: italic;
 }
+
+@media screen and (max-width: 700px) {
+  .slide4 {
+    flex-direction: column-reverse;
+  }
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+  .slide4__container__text__h2 {
+    font-size: 7vh;
+  }
+  .slide4__container__text__p {
+    font-size: 3vh;
+    line-height: 5vh;
+  }
+
+  .slide4__container__text {
+    padding: 0 3vh 0 3 vh;
+    margin: 3vh auto;
+  }
+
+  .buttonGroup {
+    align-items: center;
+    display: flex;
+  }
+}

@@ -24,3 +24,27 @@
   font: normal 400 1.875rem/2.8125rem Lato;
   margin: 0;
 }
+
+
+@media screen and (max-width: 700px) {
+  .slide2__container {
+
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+  .slide2__container__text__h2 {
+    margin: 5vh 5vh;
+    font-size: 7vh;
+  }
+
+  .slide2__container__text__p {
+  margin: 5vh 5vh;
+  font-size: 3vh;
+  line-height: 4vh;
+  }
+
+  .slide2__container__image {
+    margin: 5vh 5vh;
+  }
+}
