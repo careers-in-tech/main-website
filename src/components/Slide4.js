@@ -1,4 +1,4 @@
-import './slide4.css'
+import './Slide4.css'
 import image from '../assets/images/joinUs.png'
 import Button from './Button'
 

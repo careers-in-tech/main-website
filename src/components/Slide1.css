@@ -14,12 +14,12 @@
   background-color: rgba(236, 240, 241, 0.85);
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../assets/images/header.png");
+  background-image: url('../assets/images/header.png');
   background-size: cover;
 }
 
 .hero::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0px;
   right: 0px;
@@ -50,9 +50,23 @@ h1.headerTitle {
 
 .headerText {
   position: relative;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: var(--clr-blue);
   font-size: 30px;
   line-height: 60px;
   letter-spacing: -2%;
+}
+
+@media screen and (max-width: 700px) {
+  h1.headerTitle {
+    font-size: 6vh;
+  }
+  .headerText {
+    font-size: 2.5vh;
+  }
+
+  .buttonGroup {
+    display: flex;
+    flex-direction: column;
+  }
 }

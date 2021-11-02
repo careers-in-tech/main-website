@@ -1,5 +1,5 @@
 import React from 'react'
-import './slide3.css'
+import './Slide3.css'
 import bulb from '../assets/images/icon_bulb.png'
 import people from '../assets/images/icon_people.png'
 import watch from '../assets/images/icon_pace.png'
