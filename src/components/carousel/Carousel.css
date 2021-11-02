@@ -1,0 +1,46 @@
+.carousel {
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+}
+
+.indicators > button {
+  margin: 5px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 700px) {
+  .carousel {
+    height: 146vw;
+  }
+
+  .arrow-1 {
+    position: absolute;
+    top: 100vw;
+    left: 0;
+  }
+  .arrow-2 {
+    position: absolute;
+    top: 100vw;
+    right: 0;
+  }
+
+  button {
+    background-color: transparent;
+    border: 0;
+  }
+}

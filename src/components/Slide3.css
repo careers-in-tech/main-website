@@ -28,8 +28,10 @@
 .slide3__container__offerings {
   margin-top: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
+  flex-direction: row;
+  max-width: 82%;
 }
 
 .slide3__container__offerings-size {
@@ -51,12 +53,17 @@
 }
 
 .slide3__container__offerings__line {
-  width: 167px;
+  width: 20vh;
   height: 0px;
   border: 1px solid #0481f6;
   margin-top: 60px;
-  margin-right: -444px;
-  margin-left: -444px;
+  margin-right: -275px;
+  margin-left: -275px;
+}
+
+.slide3__container__offerings__line:last-of-type{
+  visibility: hidden;
+  width: 0px
 }
 
 @media screen and (max-width: 700px) {
