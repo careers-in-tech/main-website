@@ -4,6 +4,9 @@ import bulb from '../assets/images/icon_bulb.png'
 import people from '../assets/images/icon_people.png'
 import watch from '../assets/images/icon_pace.png'
 
+import Carousel from './carousel/Carousel'
+import CarouselItem from './carousel/CarouselItem'
+
 const content = [
   {
     img: bulb,
@@ -32,7 +35,7 @@ const Slide3 = () => {
           Our goal is to help mid-level professionals (from all backgrounds!)
           pivot into fulfilling careers in the growing tech sector.
         </p>
-        <div className="slide3__container__offerings">
+        <div className="slide3__container__offerings__desktop">
           {content.map((content) => {
             return (
               <>
@@ -50,50 +53,40 @@ const Slide3 = () => {
             )
           })}
         </div>
+        <div className="slide3__container__offerings__mobile">
+          <Carousel>
+            <CarouselItem>
+              <div className="slide3__carousel">
+                <div className="carousel__image">
+                  <img src={content[0].img} alt="Light Bulb" />
+                </div>
+                <h3 className="slide3__carousel__h3">{content[0].title}</h3>
+                <p className="slide3__carousel__p">{content[0].text}</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="slide3__carousel">
+                <div className="carousel__image">
+                  <img src={content[1].img} alt="Light Bulb" />
+                </div>
+                <h3 className="slide3__carousel__h3">{content[1].title}</h3>
+                <p className="slide3__carousel__p">{content[1].text}</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem>
+              <div className="slide3__carousel">
+                <div className="carousel__image">
+                  <img src={content[2].img} alt="Light Bulb" />
+                </div>
+                <h3 className="slide3__carousel__h3">{content[2].title}</h3>
+                <p className="slide3__carousel__p">{content[2].text}</p>
+              </div>
+            </CarouselItem>
+          </Carousel>
+        </div>
       </div>
     </section>
   )
 }
 
 export default Slide3
-
-// <div className="mobile-view">
-// <Carousel>
-//   <CarouselItem>
-//     <InfoBlock
-//       img={content[0].img}
-//       mobileImg={content[0].mobileImg}
-//       bodyText={content[0].bodyText}
-//       buttonText={content[0].buttonText}
-//       link={content[0].link}
-//     />
-//   </CarouselItem>
-//   <CarouselItem>
-//     <InfoBlock
-//       img={content[1].img}
-//       mobileImg={content[1].mobileImg}
-//       bodyText={content[1].bodyText}
-//       buttonText={content[1].buttonText}
-//       link={content[1].link}
-//     />
-//   </CarouselItem>
-//   <CarouselItem>
-//     <InfoBlock
-//       img={content[2].img}
-//       mobileImg={content[2].mobileImg}
-//       bodyText={content[2].bodyText}
-//       buttonText={content[2].buttonText}
-//       link={content[2].link}
-//     />
-//   </CarouselItem>
-//   <CarouselItem>
-//     <InfoBlock
-//       img={content[3].img}
-//       mobileImg={content[3].mobileImg}
-//       bodyText={content[3].bodyText}
-//       buttonText={content[3].buttonText}
-//       link={content[3].link}
-//     />
-//   </CarouselItem>
-// </Carousel>
-// </div>

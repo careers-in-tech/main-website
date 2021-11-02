@@ -1,5 +1,6 @@
 .carousel {
   overflow: hidden;
+  width: 100%;
 }
 
 .inner {
@@ -30,12 +31,12 @@
 
   .arrow-1 {
     position: absolute;
-    top: 100vw;
+    top: 50vw;
     left: 0;
   }
   .arrow-2 {
     position: absolute;
-    top: 100vw;
+    top: 50vw;
     right: 0;
   }
 

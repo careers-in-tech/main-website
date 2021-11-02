@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 
 /* Module style */
-import './Carousel.less'
-import rightArrow from '../assets/icons/showmore1.png'
-import leftArrow from '../assets/icons/showmore2.png'
+import './Carousel.css'
+
+import back from '../../assets/icons/back-icon.png'
+import forward from '../../assets/icons/forward-icon.png'
 
 const Carousel = ({ children }) => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -20,31 +21,29 @@ const Carousel = ({ children }) => {
 
   return (
     <div className="carousel">
-      <div className="wrap">
-        <div
-          className="inner"
-          style={{ transform: `translateX(-${activeIndex * 100}%)` }}
-        >
-          {React.Children.map(children, (child, index) => {
-            return React.cloneElement(child, { width: '100%' })
-          })}
-        </div>
-        <button
-          onClick={() => {
-            updateIndex(activeIndex - 1)
-          }}
-        >
-          <img alt="arrow" src={leftArrow} className="arrow-1" />
-        </button>
-
-        <button
-          onClick={() => {
-            updateIndex(activeIndex + 1)
-          }}
-        >
-          <img alt="arrow" src={rightArrow} className="arrow-2" />
-        </button>
+      <div
+        className="inner"
+        style={{ transform: `translateX(-${activeIndex * 100}%)` }}
+      >
+        {React.Children.map(children, (child, index) => {
+          return React.cloneElement(child, { width: '100%' })
+        })}
       </div>
+      <button
+        onClick={() => {
+          updateIndex(activeIndex - 1)
+        }}
+      >
+        <img alt="arrow" src={back} className="arrow-1" />
+      </button>
+
+      <button
+        onClick={() => {
+          updateIndex(activeIndex + 1)
+        }}
+      >
+        <img alt="arrow" src={forward} className="arrow-2" />
+      </button>
     </div>
   )
 }

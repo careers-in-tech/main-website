@@ -1,7 +1,7 @@
 import React from "react";
 
 /* Module style */
-import "./Carousel.less";
+import "./Carousel.css";
 
 const CarouselItem = ({children, width}) => {
   return (

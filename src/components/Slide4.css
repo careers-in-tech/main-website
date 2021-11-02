@@ -50,6 +50,7 @@ span.emphasized {
 @media screen and (max-width: 700px) {
   .slide4 {
     flex-direction: column-reverse;
+    margin: 0rem auto;
   }
   .left {
     width: 100%;
