@@ -1,0 +1,130 @@
+.slide3 {
+  margin-bottom: 250px;
+}
+
+.slide3__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide3__container__h2 {
+  font: var(--font-section-main-headings);
+  color: var(--clr-black);
+  text-align: center;
+  margin: 208px 0 37px 0;
+}
+
+.slide3__container__p {
+  width: 669px;
+  color: var(--clr-main-black);
+  font: normal 400 1.875rem/2.8125rem Lato;
+  text-align: center;
+  align-self: center;
+  margin: 0;
+}
+
+.slide3__container__offerings__desktop {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  max-width: 82%;
+}
+
+.slide3__container__offerings-size {
+  width: 270px;
+}
+
+.slide3__container__offerings__h3 {
+  text-transform: uppercase;
+  font: normal 900 1.25rem/1.875rem Lato;
+  color: var(--clr-sec-black);
+  margin-top: 70px;
+  letter-spacing: 0.2em;
+}
+
+.slide3__container__offerings__p {
+  font: normal 300 1.25rem/1.875rem Lato;
+  color: var(--clr-sec-black);
+  letter-spacing: -0.02em;
+}
+
+.slide3__container__offerings__line {
+  width: 20vh;
+  height: 0px;
+  border: 1px solid #0481f6;
+  margin-top: 60px;
+  margin-right: -275px;
+  margin-left: -275px;
+}
+
+.slide3__container__offerings__line:last-of-type {
+  visibility: hidden;
+  width: 0px;
+}
+
+.slide3__container__offerings__mobile {
+  visibility: hidden; 
+ position: absolute;
+  left: -999em;
+}
+
+@media screen and (max-width: 700px) {
+  .slide3 {
+    margin-bottom: 3vh;
+  }
+
+  .slide3__container__offerings__desktop {
+    display: hidden;
+    position: absolute;
+    left: -999em;
+  }
+
+  .slide3__container__h2 {
+    font-size: 7vh;
+    margin: 5vh 0;
+  }
+
+  .slide3__container__p {
+    max-width: 100%;
+    font-size: 3vh;
+    line-height: 4vh;
+    padding: 0 4vh;
+    text-align: left;
+  }
+
+  .slide3__container__offerings__mobile {
+    visibility: visible; 
+   position: relative;
+    left: 0;
+  }
+
+  .slide3__carousel {
+    width: 100%;
+    padding: 10vh 10vh;
+  }
+
+  .carousel__image {
+    padding: 2vh 25%;
+    width: auto;
+  }
+
+  .slide3__carousel__h3 {
+    text-transform: uppercase;
+    font: normal 900 1.25rem/1.875rem Lato;
+    color: var(--clr-sec-black);
+    margin-top: 4vh;
+    letter-spacing: 0.2em;
+    text-align: center;
+  }
+
+  .slide3__carousel__p {
+    font: normal 300 1.25rem/1.875rem Lato;
+    font-size: 2vh;
+    word-break: break-word;
+    white-space: normal;
+  }
+}

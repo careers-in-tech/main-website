@@ -1,7 +1,7 @@
-import "./header.css";
+import "./Slide1.css";
 import Button from "./Button";
 
-const Header = () => {
+const Slide1 = () => {
   return (
     <header className="App-header hero">
       <hr />
@@ -23,4 +23,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Slide1;
